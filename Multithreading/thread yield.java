@@ -1,13 +1,19 @@
 public class Main {
     public static void main(String[] args) {
         Thread t1 = new Thread(() -> {
-            try {
-                Thread.sleep(10000);
-            } catch (InterruptedException e) {
-                System.out.println("Thread was interrupted");
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Thread 1: " + i);
+                Thread.yield();
             }
         });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Thread 2: " + i);
+            }
+        });
+
         t1.start();
-        t1.interrupt();
+        t2.start();
     }
 }
