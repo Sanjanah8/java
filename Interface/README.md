@@ -1,8 +1,11 @@
 ### **Overview of Interfaces in Java**
 
-In Java, an interface is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types. Interfaces cannot contain instance fields or constructors. Interfaces are used to achieve abstraction and multiple inheritance in Java.
+An interface in Java is like a contract that classes agree to follow. It defines a set of methods that a class must implement, but it doesn’t provide the implementation details of those methods. Think of it as a blueprint for classes.It can contain only constants, method signatures, default methods, static methods, and nested types. Interfaces cannot contain instance fields or constructors. Interfaces are used to achieve abstraction and multiple inheritance in Java.
 
 #### **Main Points**
+
+**What is an Interface?**
+ An interface is a special type of reference type in Java, similar to a class, but it can only contain method signatures (i.e., the method names and parameters) and final variables. It does not contain method implementations (unless they are default or static methods).
 
 1. **Definition**:
    - An interface is defined using the `interface` keyword.
@@ -89,4 +92,3 @@ public class Main {
 5. **Default Methods**:
    - Use default methods to add new methods to interfaces without breaking the existing implementations of that interface.
 
-By understanding and utilizing interfaces effectively, you can create flexible and scalable Java applications that adhere to the principles of abstraction and multiple inheritance.
