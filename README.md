@@ -2,12 +2,6 @@ This repository contains all java easy, intermediate, hard programs and other co
 
 # Overview of Java
 Here's a detailed technical overview of Java, covering key concepts such as interfaces, streams, and more, along with essential points to remember for interviews and quick reference.
-## Core Concepts
-
-### 1. **Java Basics**
-- **Java Virtual Machine (JVM)**: Executes Java bytecode and provides platform independence.
-- **Java Development Kit (JDK)**: Includes tools for Java development, such as the compiler (`javac`), debugger, and JVM.
-- **Java Runtime Environment (JRE)**: Provides the JVM and standard libraries for running Java applications.
 
 ### Key Points to Remember:
 - Java is **object-oriented** and **platform-independent**.
@@ -209,6 +203,10 @@ public class Example {
     }
 }
 ```
+### 1. **Java Basics**
+- **Java Virtual Machine (JVM)**: Executes Java bytecode and provides platform independence.
+- **Java Development Kit (JDK)**: Includes tools for Java development, such as the compiler (`javac`), debugger, and JVM.
+- **Java Runtime Environment (JRE)**: Provides the JVM and standard libraries for running Java applications.
 
 #### **Compiled and Interpreted Language**
 - **Compiled**: Java code is first compiled into bytecode (`.class` files) by the Java Compiler (`javac`). This bytecode is platform-independent.
@@ -274,25 +272,25 @@ Access modifiers define the visibility of classes, methods, and variables.
 - **default** (no modifier): Accessible only within the same package.
 - **private**: Accessible only within the same class.
   
-### **J14. ava Collections Framework**
+#### **14. Java Collections Framework**
 - **Interfaces**: `List`, `Set`, `Map` – Provide abstract data structures.
 - **Implementations**: `ArrayList`, `HashSet`, `HashMap` – Concrete classes implementing these interfaces.
 - **Common Methods**: `add()`, `remove()`, `contains()`, `size()`, `clear()`, `iterator()`.
 
-### **15. Streams API**
+#### **15. Streams API**
 - **Definition**: The Streams API allows functional-style operations on sequences of elements, such as collections and arrays.
 - **Key Operations**:
   - **Intermediate Operations**: `filter()`, `map()`, `sorted()`, `distinct()`.
   - **Terminal Operations**: `collect()`, `forEach()`, `reduce()`, `count()`.
 - **Syntax**: `Collection.stream().filter(...).map(...).collect(Collectors.toList())`.
 
-### **16. Java Memory Management**
+#### **16. Java Memory Management**
 - **Heap vs Stack**:
   - **Heap**: Stores objects and their references.
   - **Stack**: Stores method calls and local variables.
 - **Garbage Collection**: Automatically reclaims memory used by objects that are no longer reachable.
 
-### **17. Design Patterns**
+#### **17. Design Patterns**
 - **Common Patterns**:
   - **Singleton**: Ensures a class has only one instance and provides a global point of access.
   - **Factory Method**: Creates objects without specifying the exact class of object to be created.
