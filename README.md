@@ -1,9 +1,9 @@
-# java
-All java easy, intermediate, hard programs and other concepts.
+This repository contains all java easy, intermediate, hard programs and other concepts
 
 Here's a detailed technical overview of Java, covering key concepts such as interfaces, streams, and more, along with essential points to remember for interviews and quick reference.
-# Overview of Java
 
+# Overview of Java
+------------------
 ## Core Concepts
 
 ### 1. **Java Basics**
