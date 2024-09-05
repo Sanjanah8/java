@@ -33,10 +33,21 @@ Here's a detailed technical overview of Java, covering key concepts such as inte
 
 #### **6. Exception Handling**
 - **Exception Handling**: Java provides a robust mechanism for handling exceptions using `try`, `catch`, `finally`, `throw`, and `throws` keywords. This helps in managing errors gracefully and maintaining program flow.
+- - **Try-Catch-Finally**: Handles exceptions and ensures resources are released.
+  - **Try Block**: Contains code that might throw an exception.
+  - **Catch Block**: Handles specific exceptions.
+  - **Finally Block**: Executes code regardless of whether an exception occurred.
+- **Checked vs Unchecked Exceptions**:
+  - **Checked Exceptions**: Must be handled or declared (`IOException`, `SQLException`).
+  - **Unchecked Exceptions**: Runtime exceptions that do not need to be declared or handled (`NullPointerException`, `ArrayIndexOutOfBoundsException`).
 
 #### **7. Concurrency**
 - **Multithreading**: Java supports multithreading, allowing multiple threads to run concurrently. The `Thread` class and `Runnable` interface are used to create and manage threads.
 - **Synchronization**: Java provides synchronization mechanisms to prevent concurrent access issues, using `synchronized` blocks or methods.
+- - **Threads**: Java supports multithreading using `Thread` class and `Runnable` interface.
+- **Synchronization**: Ensures thread safety by synchronizing access to shared resources.
+- **Concurrency Utilities**: Java provides utilities like `ExecutorService`, `Future`, `CountDownLatch`, and `Semaphore` for managing concurrency.
+
 
 #### **8. Platform Independence**
 - **Java Bytecode**: Java programs are compiled into platform-independent bytecode, which is executed by the JVM on any platform, ensuring portability.
@@ -60,34 +71,20 @@ Here's a detailed technical overview of Java, covering key concepts such as inte
 - **Implementations**: `ArrayList`, `HashSet`, `HashMap` – Concrete classes implementing these interfaces.
 - **Common Methods**: `add()`, `remove()`, `contains()`, `size()`, `clear()`, `iterator()`.
 
-### **Streams API **
+### **Streams API**
 - **Definition**: The Streams API allows functional-style operations on sequences of elements, such as collections and arrays.
 - **Key Operations**:
   - **Intermediate Operations**: `filter()`, `map()`, `sorted()`, `distinct()`.
   - **Terminal Operations**: `collect()`, `forEach()`, `reduce()`, `count()`.
 - **Syntax**: `Collection.stream().filter(...).map(...).collect(Collectors.toList())`.
 
-### 6. **Exception Handling**
-- **Try-Catch-Finally**: Handles exceptions and ensures resources are released.
-  - **Try Block**: Contains code that might throw an exception.
-  - **Catch Block**: Handles specific exceptions.
-  - **Finally Block**: Executes code regardless of whether an exception occurred.
-- **Checked vs Unchecked Exceptions**:
-  - **Checked Exceptions**: Must be handled or declared (`IOException`, `SQLException`).
-  - **Unchecked Exceptions**: Runtime exceptions that do not need to be declared or handled (`NullPointerException`, `ArrayIndexOutOfBoundsException`).
-
-### 7. **Multithreading and Concurrency**
-- **Threads**: Java supports multithreading using `Thread` class and `Runnable` interface.
-- **Synchronization**: Ensures thread safety by synchronizing access to shared resources.
-- **Concurrency Utilities**: Java provides utilities like `ExecutorService`, `Future`, `CountDownLatch`, and `Semaphore` for managing concurrency.
-
-### 8. **Java Memory Management**
+### **Java Memory Management**
 - **Heap vs Stack**:
   - **Heap**: Stores objects and their references.
   - **Stack**: Stores method calls and local variables.
 - **Garbage Collection**: Automatically reclaims memory used by objects that are no longer reachable.
 
-### 9. **Design Patterns**
+### **Design Patterns**
 - **Common Patterns**:
   - **Singleton**: Ensures a class has only one instance and provides a global point of access.
   - **Factory Method**: Creates objects without specifying the exact class of object to be created.
