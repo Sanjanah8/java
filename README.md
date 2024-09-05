@@ -10,7 +10,7 @@ Here's a detailed technical overview of Java, covering key concepts such as inte
 - **Java Runtime Environment (JRE)**: Provides the JVM and standard libraries for running Java applications.
 ### Important Points About Java
 
-#### ** Compiled and Interpreted Language**
+#### **Compiled and Interpreted Language**
 - **Compiled**: Java code is first compiled into bytecode (`.class` files) by the Java Compiler (`javac`). This bytecode is platform-independent.
 - **Interpreted**: The Java Virtual Machine (JVM) interprets and executes the bytecode on any platform. This allows Java to be platform-independent, following the "write once, run anywhere" principle.
 
@@ -55,33 +55,12 @@ Here's a detailed technical overview of Java, covering key concepts such as inte
 - **Access Modifiers**: `public`, `protected`, and `private` control access to classes, methods, and variables.
 - **Other Modifiers**: `static`, `final`, `abstract`, `synchronized`, `volatile`, `transient`, etc., each providing specific functionalities and constraints.
 
-#### **13. Collections Framework**
-- **Collections**: Java provides a framework for handling collections of objects (e.g., lists, sets, maps) through classes and interfaces like `ArrayList`, `HashSet`, `HashMap`, etc.
-
-#### **14. Java SE vs. Java EE**
-- **Java SE (Standard Edition)**: Provides core functionality for Java programming, including the basic libraries and APIs.
-- **Java EE (Enterprise Edition)**: Extends Java SE with additional libraries and APIs for enterprise-level applications, including servlets, JSP, EJB, and more.
-
-These points provide a comprehensive overview of Java, touching on both fundamental concepts and practical aspects that are crucial for both learning and interviews.
-### 2. **Object-Oriented Programming (OOP)**
-- **Classes and Objects**: Classes are blueprints for objects. Objects are instances of classes containing data (fields) and methods.
-- **Encapsulation**: Bundles data and methods within a class and restricts access to the internal state using access modifiers (`private`, `protected`, `public`).
-- **Inheritance**: Allows a class to inherit properties and methods from another class using the `extends` keyword.
-- **Polymorphism**: Enables objects to be treated as instances of their parent class. Includes method overriding and dynamic method dispatch.
-- **Abstraction**: Hides implementation details and exposes only essential features through abstract classes and interfaces.
-
-### 3. **Interfaces**
-- **Definition**: Interfaces define a contract with abstract methods (methods without bodies) that implementing classes must fulfill.
-- **Syntax**: `interface InterfaceName { ... }`
-- **Implementation**: Classes implement interfaces using the `implements` keyword and must provide concrete implementations of the interface methods.
-- **Multiple Inheritance**: Java supports multiple inheritance of interfaces, allowing a class to implement multiple interfaces.
-
-### 4. **Java Collections Framework**
+### **Java Collections Framework**
 - **Interfaces**: `List`, `Set`, `Map` – Provide abstract data structures.
 - **Implementations**: `ArrayList`, `HashSet`, `HashMap` – Concrete classes implementing these interfaces.
 - **Common Methods**: `add()`, `remove()`, `contains()`, `size()`, `clear()`, `iterator()`.
 
-### 5. **Streams API (Java 8+)**
+### **Streams API **
 - **Definition**: The Streams API allows functional-style operations on sequences of elements, such as collections and arrays.
 - **Key Operations**:
   - **Intermediate Operations**: `filter()`, `map()`, `sorted()`, `distinct()`.
