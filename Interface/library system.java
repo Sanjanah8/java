@@ -1,3 +1,6 @@
+
+package interfacee;
+
 // LibraryItem interface
 interface LibraryItem {
     void borrowItem();
@@ -7,8 +10,8 @@ interface LibraryItem {
 
 // Book class
 class Book implements LibraryItem {
-    private String title;
-    private int borrowLimit = 14;  // 14 days borrowing limit for books
+    private final String title;
+    private final int borrowLimit = 14;  // 14 days borrowing limit for books
 
     public Book(String title) {
         this.title = title;
@@ -32,8 +35,8 @@ class Book implements LibraryItem {
 
 // Journal class
 class Journal implements LibraryItem {
-    private String title;
-    private int borrowLimit = 7;  // Journals have 7 days borrowing limit
+    private final String title;
+    private final int borrowLimit = 7;  // Journals have 7 days borrowing limit
 
     public Journal(String title) {
         this.title = title;
@@ -57,8 +60,8 @@ class Journal implements LibraryItem {
 
 // DVD class
 class DVD implements LibraryItem {
-    private String title;
-    private int borrowLimit = 5;  // DVDs have 5 days borrowing limit
+    private final String title;
+    private final int borrowLimit = 5;  // DVDs have 5 days borrowing limit
 
     public DVD(String title) {
         this.title = title;
