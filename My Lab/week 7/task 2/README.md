@@ -15,5 +15,3 @@
 2. Write a Java program to sort a list of strings in alphabetical order, ascending and descending using iterate streams.
 
 3. Write a Java program to find the second smallest and largest elements in a list of integers using iterator streams.
-
----
