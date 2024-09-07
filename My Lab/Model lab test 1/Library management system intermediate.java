@@ -9,7 +9,7 @@ import java.sql.*;
 public class LibraryGUI extends JFrame {
     private static final String URL = "jdbc:mysql://localhost:3306/library";
     private static final String USER = "root";
-    private static final String PASSWORD = "Theweeknd*8";
+    private static final String PASSWORD = "password";
     private final JTextField idField;
 
     private final JTextField titleField;
