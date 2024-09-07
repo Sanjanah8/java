@@ -1,4 +1,4 @@
-# **JAVA Lab Test – 1 **
+# **JAVA Lab Test – 1**
 
 **1.** Write a java program that uses packages in different files for different number operations (Factorial, Fibonacci).
 
