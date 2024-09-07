@@ -1,8 +1,5 @@
-
----
-
 ## **Task 1: Basic Java Programs**
-
+---
 1. Write a Java Program to print Hello World Program in Java
 2. Write a Java Program to Add two Numbers
 3. Write a Java Program to Swap Two Numbers
