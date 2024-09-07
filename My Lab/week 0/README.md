@@ -1,26 +1,29 @@
+
+---
+
 ## **Task 1: Basic Java Programs**
 
-1. **Write a Java Program to print Hello World Program in Java**
-2. **Write a Java Program to Add two Numbers**
-3. **Write a Java Program to Swap Two Numbers**
-4. **Write a Java Program to convert Integer numbers and Binary numbers**
-5. **Write a Java Program to Find Factorial of a Number in Java**
-6. **Write a Java Program to Add two Complex Numbers**
-7. **Write a Java Program to Calculate Simple Interest in Java**
-8. **Write a Java Program to Print the Pascal’s Triangle in Java**
-9. **Write a Java Program to Find Sum of Fibonacci Series Number**
-10. **Write a Java Program to Print Pyramid Number Pattern in Java**
-11. **Write a Java Program to Print Pattern**
-12. **Write a Java Program to Compute the Sum of Array Elements**
-13. **Write a Java Program to Find the Largest Element in Array**
-14. **Write a Java Program to Find the Transpose of Matrix**
-15. **Write a Java Program for Array Rotation**
-16. **Write a Java Program Remove Duplicate Elements from an Array**
-17. **Write a Java Program to Remove All Occurrences of an Element in an Array**
-18. **Write a Java Program to check whether a string is a Palindrome**
-19. **Write a Java Program to Check Anagram**
-20. **Write a Java Program to Reverse a String**
-21. **Write a Java Program to Remove leading zeros**
+1. Write a Java Program to print Hello World Program in Java
+2. Write a Java Program to Add two Numbers
+3. Write a Java Program to Swap Two Numbers
+4. Write a Java Program to convert Integer numbers and Binary numbers
+5. Write a Java Program to Find Factorial of a Number in Java
+6. Write a Java Program to Add two Complex Numbers
+7. Write a Java Program to Calculate Simple Interest in Java
+8. Write a Java Program to Print the Pascal’s Triangle in Java
+9. Write a Java Program to Find Sum of Fibonacci Series Number
+10. Write a Java Program to Print Pyramid Number Pattern in Java
+11. Write a Java Program to Print Pattern
+12. Write a Java Program to Compute the Sum of Array Elements
+13. Write a Java Program to Find the Largest Element in Array
+14. Write a Java Program to Find the Transpose of Matrix
+15. Write a Java Program for Array Rotation
+16. Write a Java Program Remove Duplicate Elements from an Array
+17. Write a Java Program to Remove All Occurrences of an Element in an Array
+18. Write a Java Program to check whether a string is a Palindrome
+19. Write a Java Program to Check Anagram
+20. Write a Java Program to Reverse a String
+21. Write a Java Program to Remove leading zeros
 
 ## **Task 2: Real-World Java Programs**
 
@@ -69,4 +72,3 @@
    - Ensure the program handles input validation and displays appropriate messages for the user.
 
 ---
-
