@@ -1,8 +1,5 @@
-
-
 ## TASK-1 (75 Marks)
 -------------------------
-
 ### Beginner level:
 --------------------
 1) **Socket_Date**: A sample application that allows a client to get the current date from the server (10 Marks)
@@ -23,6 +20,3 @@
 ----------------
 **Network Tic-Tac-Toe Game**: A server for multiple two-player games that listens for clients to connect and spawns a thread for each player (50 Marks)
 
---- 
-
-Feel free to save this content as `README.md` in your project directory!
