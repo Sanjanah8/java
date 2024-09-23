@@ -16,5 +16,3 @@ TASK 2
    a. addition()  
    b. multiplication()  
    c. squareroot()  
-
---- 
